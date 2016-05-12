@@ -2,23 +2,43 @@
 /* CSS Document */
 h2{font-size: 42px !important;
     text-align: left;
+<<<<<<< HEAD
 	font-family: 'Montserrat', sans-serif;}
 body{
   transition: all 1s ease;
+=======
+	/*color:#ffffff !important; */
+	font-family: 'Montserrat', sans-serif;}
+body{
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 background: #eee;	
 padding:5px;
 color: #555555;
 font-family: 'Hind', sans-serif;
 }
+<<<<<<< HEAD
 #Nav{background-color:#fff;margin:0!important; max-height: 50px!important;}
 #nav li{height: 50!important;}
+=======
+#Nav{background-color:#fff;}
+
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 .page-scroll:hover {color:#037ff3!important;}
 .page-scroll
 {color:#222; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 font-size:14px;
 font-weight:500;
 }
+<<<<<<< HEAD
 /* footer{background: #000;color: #fff;padding:40px ;padding-bottom:50px;} */
+=======
+footer{
+    background: #000;
+    color: #fff;
+    padding:40px ;
+	padding-bottom:50px;
+}
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 header{
 background:url(../img/pc2.jpg) bottom left ;
 padding:200px;
@@ -71,28 +91,60 @@ text-align:center;
 }
 
 /* The Modaaaaaaaaaaaaaaaal (background) */
+<<<<<<< HEAD
  .modal {
     top:0;
     display: none; 
     position: fixed; 
     background-color: rgba(0,0,0,0.4); 
+=======
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /*  y'scrolli si ness */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 }
 
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
+<<<<<<< HEAD
     margin: 4% auto; /* 4% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
     width: 80%; 
+=======
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+	
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
 /* Add Animation  to model*/
 @keyframes animatetop {
     from {top:-300px; opacity:0} 
+<<<<<<< HEAD
     to {top:0px; opacity:1}
 }
+=======
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 /* The Close Button */
 .close {
     color: #aaa;
@@ -123,7 +175,10 @@ text-align:center;
 text-transform: uppercase;	
 color: #555555;
 font-size: 15px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
 }
 .teamName{
 	font-size: 18px;
@@ -131,6 +186,7 @@ font-size: 15px;
     font-weight: bold;
     margin: 30px 0 5px;
 }
+<<<<<<< HEAD
 .course{
 border: groove;
 height:500px;
@@ -161,11 +217,21 @@ background-size: cover;
 .titreshodow{color: white; text-shadow: 2px 2px 4px #000000;}
 
 
+=======
+
+
+.course{
+background-color:#037ff3 ;
+height:500px;
+padding:100px 50px 20px 50px ;
+}
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
  p{font-family: 'open sans';
     font-size: 19px;
     line-height: 32px;
     margin-bottom: 40px;}
 .descriptionLang {
+<<<<<<< HEAD
 padding:90px 0 0 50px !important;}
 	
 .float {transition:all .9s;}
@@ -396,3 +462,24 @@ img{max-width: 100%;max-height: 250px;}
 }
 .logout{font: 20px fantasy ;    transition: all 1s ease;}
 .logout:hover{ color:red;   transform:translateX(20px); }
+=======
+padding:90px 0 0 50px !important;
+
+}
+	
+.float {
+  transition:all .3s ease-out;
+}
+
+.float:hover {
+
+  transform:translate(0px,-10px);
+}
+
+#titleCourse{    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+	margin-top:100px;
+    margin-bottom: 16px;
+	color:white;}
+>>>>>>> 8c096dc53504e604e10a4d8c64a6031fa62e147a
